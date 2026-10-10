@@ -1,9 +1,9 @@
 import subprocess
 import os
 
-ADD_SONG = 'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Add Song Python/addSong.py'
-remote_file = 'pi@192.168.1.188:/home/pi/playlistbot/Add to Playlist.txt'
-local_file = r'C:\Users\Deave\OneDrive\Desktop\Projects\Python Bots\Add Song Python\Add to Playlist.txt'
+ADD_SONG = ''
+remote_file = ''
+local_file = r''
 
 def transfer_file(transfer_file, destination_file):
     try:

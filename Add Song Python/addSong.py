@@ -8,7 +8,7 @@ import time
 import os
 
 PLAYLIST_FILE = "Add to Playlist.txt"
-USER_PROFILE_PATH = "C:/Users/Deave/AppData/Local/Google/Chrome/User Data"  # Update this path
+USER_PROFILE_PATH = ""  # Update this path
 
 def setup_driver():
     options = webdriver.ChromeOptions()

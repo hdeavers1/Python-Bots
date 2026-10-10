@@ -4,22 +4,22 @@ import subprocess
 import paramiko  # type: ignore
 import time
 
-hostname = '192.168.50.37'
-pi_destination = 'pi@192.168.50.37:/home/pi/playlistbot/'
-pi_weebbot = 'pi@192.168.50.37:/home/pi/playlistbot/weebbot.py'
-rock_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/Rock Playlist.txt'
-rap_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/Rap Playlist.txt'
-metal_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/Metal Playlist.txt'
-pop_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/Pop Playlist.txt'
-country_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/Country Playlist.txt'
-eighties_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/80s Playlist.txt'
-nineties_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/90s Playlist.txt'
-twothousands_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/2000s Playlist.txt'
-twentytens_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/2010s Playlist.txt'
-creed_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/Creed Playlist.txt'
-weebbot_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/weebbot.py'
-cleaner_file = r'C:/Users/Deave/OneDrive/Desktop/Projects/Python Bots/Python Playlist Bot/cleaner_bot.py'
-desktop_path = r'C:/Users/Deave/OneDrive/Desktop'
+hostname = ''
+pi_destination = ''
+pi_weebbot = ''
+rock_file = r''
+rap_file = r''
+metal_file = r''
+pop_file = r''
+country_file = r''
+eighties_file = r'
+nineties_file = r''
+twothousands_file = r''
+twentytens_file = r''
+creed_file = r''
+weebbot_file = r''
+cleaner_file = r''
+desktop_path = r''
 
 ssh_key_path = r'C:/Users/Deave/.ssh/id_rsa'
 ssh_port = 22
@@ -59,9 +59,9 @@ def run_bots(commands, client, botname):
 
 def update():
     try:
-        hostname = '192.168.50.37'
+        hostname = ''
         port = 22
-        username = 'pi'
+        username = ''
         key_path = 'C:\\Users\\Deave\\.ssh\\id_rsa'
 
         client = paramiko.SSHClient()
@@ -89,9 +89,9 @@ def update():
         
 def commands():
     try:
-        hostname = '192.168.50.37'
+        hostname = ''
         port = 22
-        username = 'pi'
+        username = ''
         key_path = 'C:\\Users\\Deave\\.ssh\\id_rsa'
 
         client = paramiko.SSHClient()

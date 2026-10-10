@@ -10,8 +10,13 @@ import random as rand
 
 
 BOT_TOKEN = ""
+<<<<<<< HEAD
 SPOTIPY_CLIENT_ID = "ed5dbfc7ff654e59904b8920f1ea220e"
 SPOTIPY_CLIENT_SECRET = "95d00d9e11a14a8885ebcf75fad3ae08"
+=======
+SPOTIPY_CLIENT_ID = ""
+SPOTIPY_CLIENT_SECRET = ""
+>>>>>>> e0a32fdd74e3bd47de08606d6a6f6b2bebf3a62f
 CREED_FILE = "Creed Playlist.txt"
 
 playlists = [
