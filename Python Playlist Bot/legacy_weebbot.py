@@ -9,9 +9,9 @@ import os
 import random as rand
 
 
-BOT_TOKEN = "MTE3ODc2OTQ1NTk1ODk5NTA2NA.G74RJK.nTyXN2UbycfPfT91wyfDE53SxkERPdFbSxpIBU"
-SPOTIPY_CLIENT_ID = "bd06ff26033a4951a5c5ac1fe62d531e"
-SPOTIPY_CLIENT_SECRET = "101c9a9a42a94a6193fd9108edfc996c"
+BOT_TOKEN = ""
+SPOTIPY_CLIENT_ID = ""
+SPOTIPY_CLIENT_SECRET = ""
 PLAYLIST_FILE = "Current Playlist.txt"
 COUNTRY_FILE = "Country Playlist.txt"
 RAP_FILE = "Rap Playlist.txt"
