@@ -3,7 +3,7 @@ import re
 import discord
 from discord.ext import commands
 
-BOT_TOKEN = "MTI1MDE2ODI1Njg2MjQ5MDcxOA.G2kFfw.TrWVUupw3DNa2V18gj74yz0RYyG8UTblI2zncM"
+BOT_TOKEN = ""
 PLAYLIST_FILE = "Current Playlist.txt"
 ADD_FILE = "Add to Playlist.txt"
 
