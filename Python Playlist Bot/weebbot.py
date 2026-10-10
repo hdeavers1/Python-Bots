@@ -9,9 +9,9 @@ import os
 import random as rand
 
 
-BOT_TOKEN = "MTE3ODc2OTQ1NTk1ODk5NTA2NA.G74RJK.nTyXN2UbycfPfT91wyfDE53SxkERPdFbSxpIBU"
-SPOTIPY_CLIENT_ID = "ed5dbfc7ff654e59904b8920f1ea220e"
-SPOTIPY_CLIENT_SECRET = "95d00d9e11a14a8885ebcf75fad3ae08"
+BOT_TOKEN = ""
+SPOTIPY_CLIENT_ID = ""
+SPOTIPY_CLIENT_SECRET = ""
 CREED_FILE = "Creed Playlist.txt"
 
 playlists = [
