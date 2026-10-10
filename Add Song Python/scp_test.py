@@ -1,7 +1,7 @@
 import subprocess
 
-remote_file = 'pi@192.168.1.188:/home/pi/playlistbot/weebbot.py'
-local_file = r'C:\Users\Deave\OneDrive\Desktop\Projects\Python Bots\Python Playlist Bot/weebbot.py'
+remote_file = ''
+local_file = r''
 
 def transfer_file_from_raspberry_pi(transfer_file, destination_file):
     try:
