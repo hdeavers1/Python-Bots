@@ -24,9 +24,9 @@ def run_bots(commands, client, botname):
 
 def main():
     try:
-        hostname = '192.168.50.37        pip uninstall discord.py'
+        hostname = '        pip uninstall discord.py'
         port = 22
-        username = 'pi'
+        username = ''
         key_path = 'C:\\Users\\Deave\\.ssh\\id_rsa'
 
         client = paramiko.SSHClient()
