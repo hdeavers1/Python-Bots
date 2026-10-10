@@ -3,7 +3,7 @@ from discord.ext import commands, tasks #type: ignore
 import asyncio
 import os
 
-BOT_TOKEN = "MTM4Nzg5MzY3MTA0NjY3NjY3MQ.G4IzBm.Mmwr358MIX1ImddsIHnp3N18h8pmQcSBEy7XNE"
+BOT_TOKEN = ""
 intents = discord.Intents.default()
 intents.message_content = True
 intents.guilds = True
